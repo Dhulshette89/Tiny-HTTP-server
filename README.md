@@ -9,13 +9,7 @@ Every thread is responsible for serving the GET request. POST and other methods 
 The design supports least support the 200, 404, 403, and 400 status codes. 
 Fro HTTP/1.0 the connection is closed right away unless a header with connection: keep-alive is provided.
 For HTTP/1.1 the connection remains open by default for 10 seconds.
----------------------------------------------------------------------------------------------------------------------------------
-A list of submitted files:
 
-1.Server.java
-2.HTML,CSS, images downloaded from the SCU index webpage.
-3.Script file
-4.Make file
 ---------------------------------------------------------------------------------------------------------------------------------
 Instructions for running your program:
 
